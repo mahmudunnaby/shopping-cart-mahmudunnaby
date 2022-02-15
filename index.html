@@ -13,26 +13,34 @@
 
 <body>
     <div class="container mx-auto px-20 ">
-        <h1 class="font-semibold text-4xl">My Shopping Cart</h1>
+        <h1 class="font-semibold text-3xl">My Shopping Cart</h1>
 
-        <div class="bg-slate-100 p-12 mt-32 rounded-lg">
+        <div class="bg-slate-100 p-9 mt-32 rounded-lg">
 
-            <div class="bg-white rounded-lg m-8 p-12">
-                <div>
-                    <img class="picture-resize" src="./images/product-1.png" alt="" srcset="">
-                    <h2 class="font-bold text-3xl">iPhone 11 128GB Black</h2>
+            <div class="bg-white rounded-lg m-12 p-8 flex">
+                <div class="flex-auto">
+                    <div class="flex flex-row items-center ">
+                        <img class="picture-resize" src="./images/product-1.png" alt="" srcset="">
+                        <h2 class="font-semibold text-3xl p-6">iPhone 11 128GB Black</h2>
+                    </div>
+
                 </div>
-                <div>
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
-                    </svg><input class="bg-slate-100 rounded-lg" id="iphone-input" type="number"><svg class="w-6 h-6"
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                    <p>$<span id="iphone-price-text">1219</span> </p>
-                    <img src="./images/remove.png" alt="" srcset="">
+
+                <div class="flex-auto">
+                    <div class="flex flex-row pt-10">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M20 12H4"></path>
+                        </svg><input class="bg-slate-100 rounded-lg w-12 font-semibold text-1xl pl-4 " id="iphone-input"
+                            type="number"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                        <p class="font-semibold text-2xl mx-3 px-3">$<span id="iphone-price-text">1219</span> </p>
+                        <img src="./images/remove.png" alt="" srcset="">
+                    </div>
+
                 </div>
 
             </div>
@@ -40,32 +48,52 @@
 
 
 
-            <div class="bg-white rounded-lg m-8 p-12">
-                <div>
-                    <img class="picture-resize" src="./images/product-2.png" alt="" srcset="">
-                    <h2 class="font-bold text-3xl">iPhone 11 128GB Black</h2>
+            <div class="bg-white rounded-lg m-12 p-8  flex">
+
+                <div class="flex-auto">
+                    <div class="flex flex-row items-center">
+                        <img class="picture-resize" src="./images/product-2.png" alt="" srcset="">
+                        <h2 class="font-semibold text-3xl">iPhone 11 128GB Black</h2>
+                    </div>
                 </div>
 
 
-                <div>
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
-                    </svg></i><input class="bg-slate-100 rounded-lg" id="case-input" type="number"><svg class="w-6 h-6"
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                    <p>$<span id="case-price-text">1219</span></p>
-                    <img src="./images/remove.png" alt="" srcset="">
-                    <div class="bg-white rounded-lg m-8 p-12"><button>Check out</button></div>
-                    <button class=""></button>
+
+                <div class="flex-auto items-center">
+                    <div class="flex flex-row  pt-10 ml-8 ">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M20 12H4"></path>
+                        </svg></i><input
+                            class="bg-slate-100 rounded-lg w-12 bg-slate-100 rounded-lg w-12 font-semibold text-1xl pl-4"
+                            id="case-input" type="number"><svg class="w-6 h-6" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                        <p class="font-semibold text-2xl mx-3 px-3">$<span id="case-price-text">1219</span></p>
+                        <img src="./images/remove.png" alt="" srcset="">
+                    </div>
+
+
+
                 </div>
             </div>
+            <div class="bg-white rounded-lg m-12 p-8 flex ">
+                <div class="flex-1">
+                    <h1 class="font-semibold text-2xl">Subtotal:</h1>
+                    <h1 class="font-semibold text-2xl">Tax:</h1>
+                    <h1 class="font-semibold text-2xl">Total:</h1>
+                </div>
+                <div class="flex-2 ">
+                    <h1 class="font-semibold text-2xl">$ <span class="font-semibold text-2xl">1,278</span> </h1>
+                    <h1 class="font-semibold text-2xl">$ <span class="font-semibold text-2xl">0</span> </h1>
+                    <h1 class="font-semibold text-2xl">$ <span class="font-semibold text-2sxl">1,278</span> </h1>
+                </div>
 
+            </div>
 
-
-
+            <div class=" flex justify-end"><button class="mx-8 bg-emerald-400 p-6 rounded-lg ">Check out</button></div>
 
 
         </div>
