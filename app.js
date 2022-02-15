@@ -8,7 +8,7 @@ document.getElementById('pos-btn-phone').addEventListener('click', function () {
     let numberOfPhone = parseInt(numberOfPhoneText)
     console.log (numberOfPhone)
     
-    if (numberOfPhone > -1) {
+    if (numberOfPhone >=0) {
 
     numberOfPhone = numberOfPhone + 1
     inputAmountPhone.value=numberOfPhone
@@ -17,7 +17,35 @@ document.getElementById('pos-btn-phone').addEventListener('click', function () {
     priceOfPhone.innerText = phonePrice
     
     }
-    console.log('click')
+    // console.log('click')
+
+})
+
+
+//  negative Button Works (phone)
+
+document.getElementById('neg-btn-phone').addEventListener('click', function () {
+
+    let inputAmountPhone = document.getElementById('iphone-input')
+    let numberOfPhoneText = inputAmountPhone.value
+    let numberOfPhone = parseInt(numberOfPhoneText)
+
+    if (numberOfPhone >=1 ) {
+
+    numberOfPhone = numberOfPhone - 1
+    inputAmountPhone.value =numberOfPhone
+    let phonePrice = numberOfPhone * 1219
+
+    
+    let priceOfPhone = document.getElementById('iphone-price-text')
+    priceOfPhone.innerText = phonePrice
+
+
+
+    }
+
+// console.log('clicked')
+
 
 })
 
@@ -34,10 +62,9 @@ document.getElementById('pos-btn-phone').addEventListener('click', function () {
 
 
 
-
 // /////RAW CODES ////////
 
-// document.getElementById('neg-btn-phone').addEventListener('cilck', function () {
+// document.getElementById('neg-btn-phone').addEventListener('click', function () {
 
 
 
