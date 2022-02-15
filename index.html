@@ -8,11 +8,73 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <h1>My Shopping Cart</h1>
+    <div class="container mx-auto px-20 ">
+        <h1 class="font-semibold text-4xl">My Shopping Cart</h1>
+
+        <div class="bg-slate-100 p-12 mt-32 rounded-lg">
+
+            <div class="bg-white rounded-lg m-8 p-12">
+                <div>
+                    <img class="picture-resize" src="./images/product-1.png" alt="" srcset="">
+                    <h2 class="font-bold text-3xl">iPhone 11 128GB Black</h2>
+                </div>
+                <div>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                    </svg><input class="bg-slate-100 rounded-lg" id="iphone-input" type="number"><svg class="w-6 h-6"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    <p>$<span id="iphone-price-text">1219</span> </p>
+                    <img src="./images/remove.png" alt="" srcset="">
+                </div>
+
+            </div>
+
+
+
+
+            <div class="bg-white rounded-lg m-8 p-12">
+                <div>
+                    <img class="picture-resize" src="./images/product-2.png" alt="" srcset="">
+                    <h2 class="font-bold text-3xl">iPhone 11 128GB Black</h2>
+                </div>
+
+
+                <div>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                    </svg></i><input class="bg-slate-100 rounded-lg" id="case-input" type="number"><svg class="w-6 h-6"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    <p>$<span id="case-price-text">1219</span></p>
+                    <img src="./images/remove.png" alt="" srcset="">
+                    <div class="bg-white rounded-lg m-8 p-12"><button>Check out</button></div>
+                    <button class=""></button>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
     <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/442a8da85d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
